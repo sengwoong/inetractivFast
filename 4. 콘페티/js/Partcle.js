@@ -5,7 +5,7 @@ export default class Particle {
     this.angle = Math.PI / 180 * randomNumBetween(deg - spread, deg + spread)
     this.r = randomNumBetween(30, 100)
     this.x = innerWidth * x
-    this.y = innerHeight * y
+    // this.y = innerHeight * y
 
     this.vx = this.r * Math.cos(this.angle)
     this.vy = this.r * Math.sin(this.angle)
